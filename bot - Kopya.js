@@ -28,7 +28,7 @@ client.on('message', msg => {
   }
   if (msg.content.toLowerCase() === prefix + 'temizle') {
     msg.channel.bulkDelete(100);
-    msg.channel.sendMessage("100 adet mesaj silindi! (Emirhan Saraç)");
+    msg.channel.sendMessage("100 adet mesaj silindi! (Dll)");
   }
   if (msg.content.toLowerCase() === prefix + 'reboot') {
     if (msg.author.id !== ayarlar.sahip) {
